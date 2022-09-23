@@ -3,8 +3,21 @@ strong {
 	display: inline-block;
 }
 
+a{
+    text-decoration: none;
+    color:gray;
+}
+
+a:hover{
+    color: white;
+    background-color: orange;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+
 h1 {
-	color: rgb(43, 198, 0);
+	color:midnightblue;
     font-size: 26pt;
     font-family: forma-djr-display, sans-serif;
     font-style: medium;
@@ -15,8 +28,15 @@ h1 {
 h2{
     font-size: 12pt;
     font-family: forma-djr-display, sans-serif;
-    font-style: italic;
     font-weight: 400;
+}
+
+h2:hover {
+    color:darksalmon;
+    font-size: xx-large;
+    font-family: serif;
+    font-weight: 600;
+    font-style: italic;
 }
 
 h3 {
@@ -26,48 +46,35 @@ h3 {
     font-weight: 200;
 }
 
-h3:hover {
-    color: violet;
-    font-size: large;
-    font-family: forma-djr-display, sans-serif;
-    font-weight: 600;
-}
+
 
 p{ 
     font-size: 10pt;
     font-family: forma-djr-display, sans-serif;
     font-weight: 100;
+    color:black;
 }
 
 #container {
-    background-color: skyblue;
+    background-color:cornsilk;
     padding: 5px;
       }
 
   
 #second1 {
-    border-bottom: 2px solid #0088dd;
+    border-bottom: 2px solid green;
     padding: 0px;
     margin: 10px 0 10px 0;
     width: 100%;
 }  
 
 #second2 {
-    border-bottom: 2px solid #0088dd;
+    border-bottom: 2px solid green;
     padding: 0px;
     margin: 10px 0 10px 0;
     width: 100%;
 }  
     
-#third {
-    border: 2px solid rgb(255, 157, 0);
-    padding: 5px;
-    width: 215px;
-    height: 150px;
-    margin: 5px;
-    float: left;
-    text-align: center;
-}
 
 #para {
     margin: 10px auto 10px auto;
@@ -76,8 +83,21 @@ p{
     }
 
 
-.gridlayout {
+.gridlayout1 {
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 10px;
 }
+
+.gridlayout2 {
+    display: grid;
+    grid-template-columns: 15% 20% 20% 30% 15%;
+    column-gap: 5px;
+}
+
+.gridlayout3 {
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    column-gap: 5px;
+}
+
