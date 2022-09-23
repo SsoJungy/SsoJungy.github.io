@@ -10,6 +10,8 @@ h1 {
     font-style: medium;
 
 }
+
+
 h2{
     font-size: 12pt;
     font-family: forma-djr-display, sans-serif;
@@ -43,10 +45,18 @@ p{
       }
 
   
-#second {
-    border: 2px solid #0088dd;
-    padding: 8px;
-    margin: 10px auto 10px auto;
+#second1 {
+    border-bottom: 2px solid #0088dd;
+    padding: 0px;
+    margin: 10px 0 10px 0;
+    width: 100%;
+}  
+
+#second2 {
+    border-bottom: 2px solid #0088dd;
+    padding: 0px;
+    margin: 10px 0 10px 0;
+    width: 100%;
 }  
     
 #third {
@@ -55,7 +65,7 @@ p{
     width: 215px;
     height: 150px;
     margin: 5px;
-    float: right;
+    float: left;
     text-align: center;
 }
 
@@ -64,3 +74,10 @@ p{
     padding: 5px;
 
     }
+
+
+.gridlayout {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+}
