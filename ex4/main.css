@@ -1,0 +1,144 @@
+#shape1 {
+margin-left: 300px;
+margin-top: 50px;
+}
+
+.myshape1 {
+         
+  width: 40px;
+  height: 140px;
+  background-color: green;
+  transform: translate();
+  transform-origin: bottom left;
+  transform: skewx(-20deg);
+  float:left; 
+}
+
+.myshape2 {
+  width: 10px;
+  height: 140px;
+  background-color: green;
+  transform: translate();
+  transform-origin: bottom left;
+  transform: skewX(20deg);
+  
+}
+
+#shape2 {
+  margin-left: 300px;
+  margin-top: 80px;
+  }
+  
+  .myshape3 { 
+    width: 40px;
+    height: 140px;
+    background-color: red;
+    transform: translate();
+    transform-origin: top left;
+    transform: skewx(20deg);
+    float:left; 
+  }
+  
+  .myshape4 {
+    width: 10px;
+    height: 140px;
+    background-color: red;
+    transform: translate();
+    transform-origin: top left;
+    transform: skewX(-20deg);
+
+  }
+
+  #shape2-1 {
+    margin-left: 275px;
+    margin-top: -60px;
+    }
+
+  .myshape5 {
+    width: 80px;
+    height: 8px;
+    background-color: red;
+    }
+
+  #shape3 {
+    margin-left:300px;
+    margin-top: 120px;
+  }
+
+  .myshape6 {
+    width: 8px;
+    height: 180px;
+    background-color: pink;
+    float:left;
+  }
+
+  .myshape7 {
+    width: 100px;
+    height: 180px;
+    background: pink;
+    transition: 0.2s;
+    clip-path: polygon(60% 0%, 25% 50%, 60% 100%, 25% 100%, 0% 50%, 30% 0%);
+  
+  }
+
+  #shape4 {
+    margin-left:270px;
+    margin-top:80px;
+  }
+
+  .myshape8 {
+    width:110px;
+    height: 8px;
+    background: navy;
+    float: left;
+  }
+
+  .myshape9 {
+    width: 40px;
+    height: 170px;
+    background: navy;
+  }
+
+#shape4-1 {
+  margin-left:270px;
+  margin-top:-95px;
+}
+
+.myshape10 {
+  width:110px;
+  height: 8px;
+  background: navy;
+  float: left;
+}
+
+#shape5 {
+  margin-left:250px;
+  margin-top:170px;
+  margin-bottom:50px;
+}
+
+.myshape11 {
+  width: 30px;
+  height: 140px;
+  background-color: orange;
+  float:left;
+}
+
+.myshape12 {
+  margin-left:75px;
+  width: 10px;
+  height: 140px;
+  background-color: orange;
+  transform: translate();
+  transform-origin: bottom left;
+  transform: skewX(30deg);
+  float:left;
+}
+
+.myshape13 {
+  margin-left:105px;
+  width: 30px;
+  height: 140px;
+  background-color: orange;
+}
+    
