@@ -1,0 +1,177 @@
+#shape1 {
+
+    margin-left: 200px;
+    margin-top: 50px;
+    animation: movieSkew 3.5s linear infinite alternate; 
+}
+
+.myshape1 {
+         
+    width: 80px;
+    height: 280px;
+    background-color: blanchedalmond;
+    transform: translate();
+    transform-origin: bottom left;
+    transform: skewx(-20deg);
+    float:left; 
+  }
+  
+  .myshape2 {
+    width: 20px;
+    height: 280px;
+    background-color: blanchedalmond;
+    transform: translate();
+    transform-origin: bottom left;
+    transform: skewX(20deg);
+    
+  }
+
+  @keyframes movieSkew {
+    0% {
+        color: blue;
+        transform:  translateY(0);  
+    }
+    50% {
+     color: green; 
+      transform: translateY(200px) skewX(-20deg);
+    }
+    100% {
+       color: red;
+      transform:translateY(400px) skewY(-30deg);
+    }  
+  }
+
+  #shape2 {
+
+    margin-left: 200px;
+    margin-top: 50px;
+    animation: second 10s linear infinite alternate;
+}
+
+.myshape3 {
+         
+    width: 80px;
+    height: 280px;
+    background-color: blue;
+    transform: translate();
+    transform-origin: bottom left;
+    transform: skewx(-20deg);
+    float:left; 
+    animation: third 4s linear infinite alternate;
+  }
+  
+  .myshape4 {
+    width: 20px;
+    height: 280px;
+    background-color: blue;
+    transform: translate();
+    transform-origin: bottom left;
+    transform: skewX(20deg);
+    animation: third 4s linear infinite alternate;
+  }
+
+  @keyframes second {
+    0% {
+        transform: translate();
+    }
+    50% {
+      transform: skewx(-70deg) skewy(30deg);
+    }
+    100% {
+      transform: skewx(-120deg) skewy(10deg);
+    }  
+  }
+
+  @keyframes third {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+  }
+
+    
+    #shape3 {
+
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    
+    .myshape5 {
+             
+        width: 80px;
+        height: 280px;
+        background-color: blue;
+        transform: translate();
+        transform-origin: bottom left;
+        transform: skewx(-20deg);
+        float:left; 
+        animation: fourth 4s linear infinite alternate;
+        animation: six 4s linear infinite alternate;
+      }
+      
+      .myshape6 {
+        width: 20px;
+        height: 280px;
+        background-color: blue;
+        transform: translate();
+        transform-origin: bottom left;
+        transform: skewX(20deg);
+        animation: fourth 4s linear infinite alternate;
+        animation: five 4s linear infinite alternate;
+      }
+
+      @keyframes fourth {
+        from {background-color: red;}
+        to {background-color: yellow;}
+      }
+
+      @keyframes five {
+        0% {transform: translate();}
+        30% {transform: skewx(10deg);}
+        60%{transform: skewx(0deg);}
+        100%{transform: skewx(0deg);}
+
+      }
+
+      @keyframes six {
+        0% {background-color: blue;}
+        30% {background-color: black;}
+        60%{background-color: blue;}
+        100%{background-color: black;}
+
+      }
+
+      #shape4 {
+        margin-left:200px;
+        margin-top: 120px;
+
+      }
+    
+      .myshape7 {
+        width: 16px;
+        height: 360px;
+        background-color: pink;
+        float:left;
+      }
+    
+      .myshape8 {
+        width: 200px;
+        height: 360px;
+        background: pink;
+        transition: 0.2s;
+        clip-path: polygon(60% 0%, 25% 50%, 60% 100%, 25% 100%, 0% 50%, 30% 0%);
+      
+      }
+
+      .myshape7:hover {
+        width: 100px;
+        height: 360px;
+}
+
+      
+    
+     .myshape8:hover {
+        width: 200px;
+        height: 360px;
+        background: pink;
+        clip-path: polygon(100% 0%, 30% 50%, 110% 100%, 35% 100%, 50% 50%, 30% 0%);
+        
+      }
