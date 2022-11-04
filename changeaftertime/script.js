@@ -388,4 +388,4 @@ window.onLoad = moveImage();
                  image25_Element.style.top = randNum_V25 + "px";
                  image25_Element.style.left = randNum_H25 + "px";
 
-            },5000 )};
+            },4000 )};
