@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background-color: beige;
+    --accent-color: black;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Nitti Grotesk, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 48pt;
+    color:var(--accent-color);
+}
+
+.container {
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+width:400px;
+color:var(--accent-color);
+}
+
+.paragraph{
+    margin-bottom:80px;
+}
+
+.buttonclass {
+    text-align: center;
+}
+
+button{
+    font-family: Nitti Grotesk, sans-serif;
+    font-size: small;
+    font-weight: normal;
+	background: transparent;
+	padding: 0.3rem;
+	border: transparent;
+    text-align: center;
+    color:var(--accent-color);
+}
+
+button:hover {
+    font-family: Nitti Grotesk, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+	background: transparent;
+	padding: 0.3rem;
+	border: transparent;
+    cursor:grab;
+    color:var(--accent-color);
+}
+
+h2{
+    margin-top:20px;
+    text-align: left;
+    font-family: Nitti Grotesk, sans-serif;
+    font-weight: normal;
+    font-size: 18pt;
+
+}
+
+h3{
+    margin-top: 10px;
+    text-align: left;
+    font-family: Nitti Grotesk, sans-serif;
+    font-weight: normal;
+    font-style:italic;
+    font-size: 15pt;
+
+}
+
+.detail1 {
+    margin-top: 10px;
+    text-align: left;
+    font-family: Nitti Grotesk, sans-serif;
+    font-weight: normal;
+    font-size: 10pt;
+
+}
+
+.par1 h2::before{
+	content: '*';
+	display: inline-block;
+	width: 30px;
+}
+
+.detail1{
+	line-height: 1.3;
+	display: none;
+}
+
+.active .par1 h2::before{
+	content: '=';
+}
+.active .detail1{
+	display: block;
+}
+
+/*	DARK MODE STYLES GO HERE */
+
+body.darkmode {
+	background: black;
+	color: white;
+
+	/*	redefine a CSS variable */
+	--accent-color: pink;
+}
+
+body.darkmode button{
+	color: black;
+    background-color:  pink;
+}

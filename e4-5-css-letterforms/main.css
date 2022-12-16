@@ -1,0 +1,287 @@
+#shape1 {
+margin-left: 300px;
+margin-top: 50px;
+}
+
+#shape9{
+  margin-bottom: 200px;
+}
+
+/* .myshape1 {
+         
+  width: 40px;
+  height: 140px;
+  background-color: green;
+  transform: translate();
+  transform-origin: bottom left;
+  transform: skewx(-20deg);
+  float:left; 
+}
+
+.myshape2 {
+  width: 10px;
+  height: 140px;
+  background-color: green;
+  transform: translate();
+  transform-origin: bottom left;
+  transform: skewX(20deg);
+  
+}
+
+#shape2 {
+  margin-left: 300px;
+  margin-top: 80px;
+  }
+  
+  .myshape3 { 
+    width: 40px;
+    height: 140px;
+    background-color: red;
+    transform: translate();
+    transform-origin: top left;
+    transform: skewx(20deg);
+    float:left; 
+  }
+  
+  .myshape4 {
+    width: 10px;
+    height: 140px;
+    background-color: red;
+    transform: translate();
+    transform-origin: top left;
+    transform: skewX(-20deg);
+
+  }
+
+  #shape2-1 {
+    margin-left: 275px;
+    margin-top: -60px;
+    }
+
+  .myshape5 {
+    width: 80px;
+    height: 8px;
+    background-color: red;
+    }
+
+  #shape3 {
+    margin-left:300px;
+    margin-top: 120px;
+  }
+
+  .myshape6 {
+    width: 8px;
+    height: 180px;
+    background-color: pink;
+    float:left;
+  }
+
+  .myshape7 {
+    width: 100px;
+    height: 180px;
+    background: pink;
+    transition: 0.2s;
+    clip-path: polygon(60% 0%, 25% 50%, 60% 100%, 25% 100%, 0% 50%, 30% 0%);
+  
+  }
+
+  #shape4 {
+    margin-left:270px;
+    margin-top:80px;
+  }
+
+  .myshape8 {
+    width:110px;
+    height: 8px;
+    background-image: linear-gradient(to right, navy , yellow);
+    float: left;
+  }
+
+  .myshape9 {
+    width: 40px;
+    height: 170px;
+    background-image: linear-gradient(yellow, navy);
+  }
+
+#shape4-1 {
+  margin-left:270px;
+  margin-top:-95px;
+}
+
+.myshape10 {
+  width:110px;
+  height: 8px;
+  background-image: linear-gradient(to right, navy , yellow);
+  float: left;
+}
+
+#shape5 {
+  margin-left:250px;
+  margin-top:170px;
+  margin-bottom:50px;
+}
+
+.myshape11 {
+  width: 30px;
+  height: 140px;
+  background-color: orange;
+  float:left;
+} */
+
+/* .myshape12 {
+  margin-left:75px;
+  width: 10px;
+  height: 140px;
+  background-color: orange;
+  transform: translate();
+  transform-origin: bottom left;
+  transform: skewX(30deg);
+  float:left;
+}
+
+.myshape13 {
+  margin-left:105px;
+  width: 30px;
+  height: 140px;
+  background-color: orange;
+} */
+    
+.myshape14 {
+  margin-left:105px;
+  margin-top: 100px;
+  clip-path: polygon(0 0, 15% 0, 53% 0, 66% 14%, 56% 37%, 35% 49%, 72% 47%, 100% 78%, 86% 100%, 47% 100%, 0 100%, 17% 33%);
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(blue, yellow);
+}
+
+.myshape17{
+  margin-left:170px;
+  margin-top: -280px;
+  clip-path: circle(20% at 50% 50%);
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+.myshape18{
+  margin-left:250px;
+  margin-top: 60px;
+  clip-path: circle(40% at 50% 50%);
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+
+
+.myshape15{
+  margin-left:105px;
+  margin-top: 150px;
+  clip-path: polygon(0 29%, 0 0, 69% 0, 88% 16%, 79% 33%, 41% 35%, 81% 46%, 100% 78%, 86% 100%, 47% 100%, 0 100%);
+  width: 300px;
+  height: 300px;
+  background-image: radial-gradient(blue 20%, red 30%, pink 50%);
+}
+
+.myshape19{
+  margin-left:210px;
+  margin-top: -280px;
+  clip-path: circle(60% at 50% 50%);
+  width: 100px;
+  height: 60px;
+  background-color: white;
+}
+
+.myshape20{
+  margin-left:200px;
+  margin-top: 120px;
+  clip-path: circle(60% at 50% 50%);
+  width: 130px;
+  height: 30px;
+  background-color: white;
+}
+
+.myshape16{
+  margin-left:105px;
+  margin-top: 170px;
+  clip-path: polygon(23% 0, 45% 0, 60% 13%, 42% 35%, 100% 35%, 73% 100%, 23% 100%);
+  width: 300px;
+  height: 300px;
+  background-image: radial-gradient(green, red, pink);
+}
+
+#shape8:hover {
+  width: 300px;
+  height: 300px;
+  transform: translate();
+  transform-origin: center;
+  /* transform: skewX(20deg); */
+  animation: five 5s linear infinite alternate;
+  cursor: pointer;
+}
+
+@keyframes five {
+  0% {
+    transform: translate();
+}
+50% {
+  transform: skewx(70deg) skewy(100deg);
+}
+100% {
+  transform: skewx(-100deg) skewy(10deg);
+} 
+
+}
+
+.myshape21{
+  margin-left:150px;
+  margin-top: 170px;
+  clip-path: polygon(61% 100%, 0 100%, 0 0, 40% 0, 59% 8%, 65% 31%, 50% 49%, 73% 41%, 96% 54%, 100% 78%, 87% 94%);
+  width: 300px;
+  height: 300px;
+  background-image: radial-gradient(yellow, red, purple);
+}
+
+.myshape22{
+  margin-left:195px;
+  margin-top: -280px;
+  clip-path: circle(60% at 20% 60%);
+  width: 50px;
+  height: 60px;
+  background-color: white;
+}
+
+.myshape23{
+  margin-left:200px;
+  margin-top: 120px;
+  clip-path: circle(70% at 90% 80%);
+  width: 130px;
+  height: 30px;
+  background-color: white;
+}
+
+.myshape24{
+  margin-left:150px;
+  margin-top: 170px;
+  clip-path: polygon(24% 79%, 0 100%, 0 0, 19% 25%, 52% 0, 63% 29%, 50% 49%, 91% 49%, 85% 65%, 100% 87%, 64% 100%);
+  background-image: linear-gradient(pink, red,yellow);
+  width: 300px;
+  height: 300px;
+}
+
+.myshape25{
+  margin-left:195px;
+  margin-top: -200px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 50px;
+  height: 60px;
+  background-color: white;
+}
+
+.myshape26{
+  margin-left:300px;
+  margin-top: 20px;
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+  width: 100px;
+  height: 40px;
+  background-color: white;
+}

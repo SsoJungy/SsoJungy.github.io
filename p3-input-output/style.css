@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    /* background-color: rgba(245, 245, 220, 0.863); */
+    /* background-color: rgb(255, 255, 0); */
+    background-color: rgb(76, 0, 255);
+    /* --accent-color: black; */
+    --accent-color: white;
+    /* overflow-y: hidden; */
+}
+
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'GT Maru mega mini', sans-serif;
+    font-weight: lighter;
+    font-size: 8vw;
+    color:var(--accent-color);
+}
+
+h {
+    color:black;
+}
+
+h3 {
+    display: none;}
+h1:hover {
+    cursor: zoom-in;
+    font-weight: normal;
+}
+h1:hover + h3 {
+    display:inline-block;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 10px;
+    font-family: Nitti Grotesk, sans-serif;
+    font-size: 1.5vw;
+    text-align: justify;
+    /* color:salmon; */
+    color:ivory;
+    font-weight: normal;
+    /* color:lightsalmon; */
+    /* color:var(--accent-color); */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width:(windowWidth*0.5); */
+}
+
+b {
+    color:greenyellow;
+    font-weight: bold;
+}
+
+
+.container {
+margin-top: 20px;
+margin-left: 25px;
+margin-right: 25px;
+color:var(--accent-color);
+display:grid;
+grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+column-gap: 0px;
+text-align: center;
+margin-bottom: 30px;
+}
+
+/* .buttonclass {
+    margin-bottom: 30px;
+} */
+
+button{
+    font-family: Nitti Grotesk, sans-serif;
+    font-size: 1.5vw;
+    font-weight: normal;
+	background: transparent;
+	padding: 0.3rem;
+	border: transparent;
+    text-align: center;
+    color:var(--accent-color);
+}
+
+button:hover {
+    font-family: 'GT Maru mega mini', Nitti Grotesk, sans-serif;
+    font-size: 1.5vw;
+    font-weight: light;
+    /* font-style: italic; */
+	background: transparent;
+	padding: 0.3rem;
+	border: transparent;
+    cursor:grab;
+    /* color:var(--accent-color); */
+    color:greenyellow;
+}
+
+a {
+    text-decoration: none;
+    color:var(--accent-color);
+}
+
+a:hover {
+    text-decoration: none;
+    /* color:var(--accent-color); */
+    color:fuchsia;
+    font-size: 1.5vw;
+}
+
+h2{
+    margin-top: 10px;
+    text-align: left;
+    font-family: Nitti Grotesk, sans-serif;
+    font-weight: normal;
+    font-style:italic;
+    font-size: 1.5vw;
+    text-align: center;
+    line-height: 1.3;
+}
+
+h4{
+    margin-top: 10px;
+    text-align: left;
+    font-family: Nitti Grotesk, sans-serif;
+    font-weight: normal;
+    font-size: 1.5vw;
+    text-align: center;
+    line-height: 1.3;
+}
+
+p {
+    display :inline-block;
+    text-align: center;
+    margin-top: 140px;
+    /* margin-right: 10px; */
+}
+
+#first-noun-slot {
+    margin-left: 0px;
+    margin-right: 10px;
+    text-align: left;
+    font-family: 'GT Maru mega mini', Nitti Grotesk, sans-serif;
+    font-weight: normal;
+    /* font-style: italic; */
+    font-size: 20vw;
+    position: absolute;
+    animation: shift 4.72s ease infinite;
+    animation-fill-mode: forwards;
+    transform-origin: 50% 50%;
+    /* width: 80vw; */
+}
+    
+
+/* @keyframes shift {
+ 0% { transform: translateX(0)translateY(0) }
+ 25% { transform: translateX(3px) translateY(3px)}
+ 50% { transform: translateX(-3px) translateY(-3px) }
+ 75% { transform: translateX(3px) translateY(3px)}
+ 100% { transform: translateX(0)translateY(0) }
+} */
+
+@keyframes shift {
+    0% { transform:translate(0,0) }
+   1.78571% { transform:translate(5px,0) }
+   3.57143% { transform:translate(0,0) }
+   5.35714% { transform:translate(5px,0) }
+   7.14286% { transform:translate(0,0) }
+   8.92857% { transform:translate(5px,0) }
+   10.71429% { transform:translate(0,0) }
+   100% { transform:translate(0,0) }
+ }
+
+main {
+    display :inline-block;
+    margin-top: -130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; 
+    position:fixed;
+}
+
+
+img {
+    /* max-width: 200%; */
+    height: auto;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 100vw;
+}
+
