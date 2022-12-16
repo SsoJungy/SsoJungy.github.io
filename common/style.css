@@ -1,0 +1,76 @@
+body{
+    /* background-color: rgb(198, 205, 255); */
+    --accent-color: black;
+}
+
+.container {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width:90vw;
+    text-align: center;
+    color:var(--accent-color);
+    }
+
+h1{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: Nitti Grotesk, sans-serif;
+        font-weight: lighter;
+        font-size: 8vw;
+        color:var(--accent-color);
+    }
+
+h2{
+        margin-top: 0px;
+        text-align: center;
+        font-family: Nitti Grotesk, sans-serif;
+        font-weight: lighter;
+        font-size: 4vw;
+        color:var(--accent-color);
+    }
+
+a {
+        text-decoration: none;
+        color:var(--accent-color);
+    }
+
+button{
+        font-family: Nitti Grotesk, sans-serif;
+        font-size: 3.5vw;
+        line-height: 4rem;
+        font-weight: normal;
+        background: transparent;
+        border: transparent;
+        text-align: center;
+        display: inline-block;
+        color:var(--accent-color);
+    }
+
+d {
+        margin-top: 10px;
+        font-family: Nitti Grotesk, sans-serif;
+        line-height: 3px;
+        color: darkgray;
+        font-size: 2vw;
+        font-weight: normal;
+    }
+
+    p {
+        margin-top: 4vh;
+        margin-bottom: 3vh;
+    }
+
+ h3 {
+        margin-top: 0px;
+        font-family: Nitti Grotesk, sans-serif;
+        font-size: 3.5vw;
+        line-height: 4rem;
+        font-weight: normal;
+        background: transparent;
+        border: transparent;
+        text-align: center;
+        display: inline-block;
+        color:var(--accent-color);
+    }
