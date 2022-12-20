@@ -1,7 +1,9 @@
 p { display: inline-block; }
-
-/* body {
+/* 
+body {
     background-color: #05FF00;
+    background-color: beige;
+    background-color:ivory;
 } */
 
 a{
@@ -18,6 +20,8 @@ h1 {
     font-style: italic;
     font-size: 48pt;
     /* line-height: 60pt; */
+    position:relative;
+    z-index: 0;
 
 }
 
@@ -31,6 +35,8 @@ h2 {
     font-size: 16pt;
     line-height: 23pt;
     /* max-width: 294px; */
+    position:relative;
+    z-index: -3;
     
 }
 
@@ -44,6 +50,8 @@ h3 {
     font-size: 24pt;
     line-height: 30pt;
     justify-content: center;
+    position:relative;
+    z-index: 0;
 
 }
 
@@ -56,6 +64,9 @@ h4 {
     font-weight: lighter;
     font-size: 16pt;
     line-height: 23pt;
+    position:relative;
+    z-index: -3;
+
     
 }
 
@@ -71,12 +82,14 @@ img {
     position: absolute;
     width: 20%;
     opacity: 70%;
+    z-index: -1;
     /* transition: display 5s; */
 }
 
 .overlay img {
     height: auto;
     position: absolute;
+    z-index: -2;
     
 }
 
